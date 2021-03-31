@@ -1,0 +1,4 @@
+jdk:
+  - openjdk8
+install:
+   - mvn install:install-file -Dfile=SpartanAPI.jar -DgroupId=me.vagdedes.spartan.api -DartifactId=SpartanAPI -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true
